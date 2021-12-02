@@ -1,11 +1,17 @@
+import BooksAndServices from "./components/books&services";
 import AppHeader from "./components/header";
+import AppProfile from "./components/profile";
 
 function App() {
   return (
-    <div className="w-7/12 pl-2">
-      <header className="">
+    <div className="">
+      <header>
         <AppHeader />
       </header>
+      <content>
+        <AppProfile />
+        <BooksAndServices />
+      </content>
     </div>
   );
 }

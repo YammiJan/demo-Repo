@@ -2,32 +2,50 @@ import React from "react";
 
 function AppHeader() {
   return (
-    <div className="flex h-12 space-x-5 text-blue-900 ">
-      <div className="pt-3 pl-1">
-        <img
-          width="250"
-          height="210"
-          src="http://gumuskaya.com/images/haluk2014.JPG"
-          alt="gumskaya"
-        />
-      </div>
-      <div className="space-y-3 ">
-        <h1 className="pt-20 ">
-          <p className="text-2xl font-bold w-60">Halûk Gümüşkaya</p>
-          <p className="">Professor of Computer Engineering</p>
-        </h1>
-        <h1 className="pt-7">
-          <p className="flex space-x-3 ">
-            <p className="text-red-600 ">e</p>
-            <br />
-            <p className="underline">haluk@gumuskaya.com</p>
-          </p>
-          <p className="flex space-x-3">
-            <p className="text-red-600 ">w</p>
-            <br />
-            <p> // www.gumuskaya.com</p>
-          </p>
-        </h1>
+    <div className="bg-white shadow-2xl ">
+      <div className="container mx-auto">
+        <div className="justify-between sm:flex">
+          <a href="#" className="p-3 text-3xl font-bold text-gray-600">
+            WEB ZONE
+          </a>
+          <ul className="items-end text-xl text-gray-600 border-t sm:border-none sm:self-center">
+            <li className="sm:inline-block">
+              <a href="#" className="p-3 rounded-md hover:bg-gray-100 ">
+                Home
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+                About Me
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+                Experience
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+                Teaching
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+                Research
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+                Projects
+              </a>
+            </li>
+            <li className="sm:inline-block">
+              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+                Publications
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
