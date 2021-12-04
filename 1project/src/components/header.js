@@ -10,37 +10,43 @@ function AppHeader() {
           </a>
           <ul className="items-end text-xl text-gray-600 border-t sm:border-none sm:self-center">
             <li className="sm:inline-block">
-              <a href="#" className="p-3 rounded-md hover:bg-gray-100 ">
+              <a href="/" className="p-3 rounded-md hover:bg-gray-100 ">
                 Home
               </a>
             </li>
             <li className="sm:inline-block">
-              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+              <a href="/about" className="p-3 rounded-md hover:bg-gray-100">
                 About Me
               </a>
             </li>
             <li className="sm:inline-block">
-              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+              <a
+                href="/experience"
+                className="p-3 rounded-md hover:bg-gray-100"
+              >
                 Experience
               </a>
             </li>
             <li className="sm:inline-block">
-              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+              <a href="/teaching" className="p-3 rounded-md hover:bg-gray-100">
                 Teaching
               </a>
             </li>
             <li className="sm:inline-block">
-              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+              <a href="/research" className="p-3 rounded-md hover:bg-gray-100">
                 Research
               </a>
             </li>
             <li className="sm:inline-block">
-              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+              <a href="/projects" className="p-3 rounded-md hover:bg-gray-100">
                 Projects
               </a>
             </li>
             <li className="sm:inline-block">
-              <a href="#" className="p-3 rounded-md hover:bg-gray-100">
+              <a
+                href="/publications"
+                className="p-3 rounded-md hover:bg-gray-100"
+              >
                 Publications
               </a>
             </li>

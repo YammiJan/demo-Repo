@@ -3,10 +3,10 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 function BooksAndServices() {
   return (
-    <div className="pt-48 text-blue-900">
+    <div className="pt-40 text-blue-900">
       {/* first paragraph  */}
       <div className="border-t">
-        <div className="p-2">
+        <div className="pt-2">
           <h1 className="h-8 text-xl bg-gray-300">
             Eğitim / Araştırma Alanları (Teaching / Research Areas) (1986 - ...)
             <p className="flex px-3 pt-3 space-x-4">
@@ -82,31 +82,34 @@ function BooksAndServices() {
           {/* third paragraph  */}
           <div className="border-t">
             <h1 className="h-8 text-xl bg-gray-300 ">Kitaplarım (My Books)</h1>
-            <h2 className="p-3 space-x-4 ">
-              <p
-                width="148"
-                height="170"
-                src="http://gumuskaya.com/images/Mikro8051Kapak-k.jpg"
-                alt="books"
-              >
+            <h2 className="flex p-3 space-x-4 ">
+              <p>
+                <img
+                  width="148"
+                  height="170"
+                  src="http://gumuskaya.com/images/Mikro8051Kapak-k.jpg"
+                  alt="books"
+                />
                 <p>6. Basım</p>
                 <p>İlk Basım: Mart 1998</p>
               </p>
-              <p
-                width="148"
-                height="170"
-                src="http://gumuskaya.com/images/MikroBilgiKapak.jpg"
-                alt="books"
-              >
+              <p>
+                <img
+                  width="148"
+                  height="170"
+                  src="http://gumuskaya.com/images/MikroBilgiKapak.jpg"
+                  alt="books"
+                />
                 <p>6. Basım</p>
                 <p>İlk Basım: Ekim 1999</p>
               </p>
-              <p
-                width="148"
-                height="170"
-                src="http://gumuskaya.com/images/jap-kapak-web.jpg"
-                alt="books"
-              >
+              <p>
+                <img
+                  width="148"
+                  height="170"
+                  src="http://gumuskaya.com/images/jap-kapak-web.jpg"
+                  alt="books"
+                />
                 <p>1. Basım</p>
                 <p>Mayıs 2003</p>
               </p>
