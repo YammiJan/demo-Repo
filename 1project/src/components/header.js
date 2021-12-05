@@ -1,54 +1,35 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function AppHeader() {
   return (
     <div className="bg-white shadow-2xl ">
       <div className="container mx-auto">
         <div className="justify-between sm:flex">
-          <a href="#" className="p-3 text-3xl font-bold text-gray-600">
+          <Link
+            to="/"
+            className="p-3 text-3xl font-bold text-gray-600 rounded-md hover:bg-gray-100"
+          >
             WEB ZONE
-          </a>
+          </Link>
           <ul className="items-end text-xl text-gray-600 border-t sm:border-none sm:self-center">
             <li className="sm:inline-block">
-              <a href="/" className="p-3 rounded-md hover:bg-gray-100 ">
+              <Link to="/" className="p-3 rounded-md hover:bg-gray-100">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="sm:inline-block">
-              <a href="/about" className="p-3 rounded-md hover:bg-gray-100">
+              <Link to="/about" className="p-3 rounded-md hover:bg-gray-100">
                 About Me
-              </a>
+              </Link>
             </li>
             <li className="sm:inline-block">
-              <a
-                href="/experience"
+              <Link
+                to="/experience"
                 className="p-3 rounded-md hover:bg-gray-100"
               >
                 Experience
-              </a>
-            </li>
-            <li className="sm:inline-block">
-              <a href="/teaching" className="p-3 rounded-md hover:bg-gray-100">
-                Teaching
-              </a>
-            </li>
-            <li className="sm:inline-block">
-              <a href="/research" className="p-3 rounded-md hover:bg-gray-100">
-                Research
-              </a>
-            </li>
-            <li className="sm:inline-block">
-              <a href="/projects" className="p-3 rounded-md hover:bg-gray-100">
-                Projects
-              </a>
-            </li>
-            <li className="sm:inline-block">
-              <a
-                href="/publications"
-                className="p-3 rounded-md hover:bg-gray-100"
-              >
-                Publications
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
